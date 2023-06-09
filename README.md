@@ -12,4 +12,6 @@ You can also use the output text from this script in cowsay like I did:
 ~/script.sh | cowsay -f tux
 ```
 
+Do mind that the script needs internet connection to run as it calls the FOAAS API with curl.
+
 Feel free to use this any way you want, just try not to use the API in a malicious manner by hacking into someone's machine and sending them these texts without their permission :)
