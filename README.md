@@ -4,7 +4,9 @@ This is a bash script I wrote after I found the [Fuck Off As A Service](https://
 
 I found it kinda funny and thought it'd be even funnier if every time I opened my terminal it would write one of those phrases.
 
-You can use the output text from this script in cowsay like I did:
+Add `~/script.sh` to your shell source file to have it run every time you open a new instance (adjust for the path to and the name of the script file)
+
+You can also use the output text from this script in cowsay like I did:
 
 ```sh
 ~/script.sh | cowsay -f tux
